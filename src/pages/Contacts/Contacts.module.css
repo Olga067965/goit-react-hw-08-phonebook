@@ -1,0 +1,10 @@
+.contacts{
+  height: 100vh;
+  padding-top: 60px;
+  padding-left: 40px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url(img/4.jpg);
+}

@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  gap: 50px;
+  border-left: 2.3px solid rosybrown;
+  padding-left: 30px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 4px 11px 6px;
+  background-color: rgba(196, 88, 88, 0.75);
+  border-radius: 4px;
+  border: 1.5px solid  rosybrown;
+  box-shadow: 2px 2px 5px 0px rgba(196, 88, 88, 0.75);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(196, 88, 88, 0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(196, 88, 88, 0.75);
+
+  &:hover{
+    background-color: rosybrown;
+  }
+
+}
+.active {
+  background-color: rosybrown;
+  text-decoration: none;
+  color: white;
+  padding: 4px 11px 6px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px 0px rgba(196, 88, 88, 0.75);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(196, 88, 88, 0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(196, 88, 88, 0.75);
+}

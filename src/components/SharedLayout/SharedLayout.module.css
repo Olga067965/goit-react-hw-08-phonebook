@@ -1,0 +1,38 @@
+.nav {
+  background-color: rgb(228, 228, 228);
+  height: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content:flex-start;
+  gap: 15px;
+  align-items: center;
+  padding-left: 20px;
+  padding-inline: 45px;
+  box-shadow: 0px 10px 12px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 10px 12px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 12px -1px rgba(0,0,0,0.75);
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 4px 11px 6px;
+  background-color: gray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+
+}
+.active {
+  background-color: rgba(196, 88, 88, 0.75);
+  text-decoration: none;
+  color: white;
+  padding: 4px 11px 6px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+
+
+}

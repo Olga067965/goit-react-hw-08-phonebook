@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+  z-index: 999;
+  background-color:rgb(239, 200, 200);
+  height: 50px;
+  display: flex;
+  justify-content:space-between;
+  gap: 25px;
+  align-items: baseline;
+  padding-inline: 45px;
+  padding-top:12px;
+  box-shadow: 0px 10px 12px -1px rgba(196, 88, 88, 0.75);
+  -webkit-box-shadow: 0px 10px 12px -1px rgba(196, 88, 88, 0.75);
+  -moz-box-shadow: 0px 10px 12px -1px rgba(196, 88, 88, 0.75);
+  }

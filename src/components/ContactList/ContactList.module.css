@@ -1,0 +1,28 @@
+.btn {
+  margin-left: 10px;
+  border-radius: 5px;
+  border-color: aliceblue;
+  padding-block: 3px;
+  padding-inline: 8px;
+  cursor: pointer;
+  background-color: rgb(239, 200, 200);
+    color:rgba(196, 88, 88, 0.75);
+
+  &:hover{
+    background-color: rgba(196, 88, 88, 0.75);
+    color:white;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  color: rgb(239, 200, 200);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
